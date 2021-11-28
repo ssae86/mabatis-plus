@@ -1,4 +1,4 @@
-package com.cda.mabatisplus;
+    package com.cda.mabatisplus;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
@@ -13,6 +13,7 @@ public class MabatisPlusApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MabatisPlusApplication.class, args);
+        System.out.println("pull test!");
     }
 
 }
